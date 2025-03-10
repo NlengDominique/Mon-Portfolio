@@ -2,9 +2,9 @@
 
 Bienvenue dans mon portfolio personnel ! Ce projet a été développé en HTML, CSS et JavaScript pour présenter mon travail et mes compétences en tant que développeur web.
 
-<!-- ## 🚀 Démo
+## 🚀 Démo
 
-Accédez au portfolio en ligne : [Lien vers le site](https://ton-portfolio.com) -->
+Accédez au portfolio en ligne : [Lien vers le site](https://lucasdevportfolio-eight.vercel.app/)
 
 ## 📌 Fonctionnalités
 
@@ -45,7 +45,7 @@ portfolio/
 
 1. Clone le dépôt :
    ```bash
-   git clone https://github.com/Nleng/ton-portfolio.git
+   git clone https://github.com/NlengDominique/Mon-Portfolio.git
    ```
 2. Ouvre `index.html` dans un navigateur.
 
