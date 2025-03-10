@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ceci est mon portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button onclick="openMenu()" class="header-menu-mobile">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+             
+                <a href="" class=" class="header-logo">
+                    <img src="img/slack.png" alt="Logo" id="logo">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#competences">Competences</a></li>
+                    <li><a href="#realisations">Realisations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <button id="toggleDarkMode">Activer le dark mode</button>
+                <!-- <button onclick="openMenu()" class="header-menu-mobile-exit">
+                    <span><i class="fas fa-close"></i></span>
+                </button> -->
+            </div>
+        </div>
+    </header>
+
+ <div class="slider" id="accueil">
+    <img src="img/one-piece-luffy-gear-5-3840x2160-10747.jpg" alt="Photo de luffy" 
+    class="slider-background">
+    <div class="slider-content">
+        <h1>Lucas Nleng</h1>
+        <p>Je suis developpeur full-stack</p>
+        <p class="typing-text" id="typing-text"></p>
+    </div>
+ </div>
+
+ <div class="section" id="about">
+    <div class="boxed">
+        <div class="flex toColumn mCenter">
+            <div class="w40 wm100">
+                <h2>A propos de moi </h2>
+            </div>
+            <div class="w60 wm100">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Alias consequatur earum aliquam non quia harum quas quidem corrupti voluptatem nesciunt deserunt ullam commodi,
+                 similique doloribus voluptatum labore ipsum aspernatur? Dolor!
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, vitae sequi minima provident quo obcaecati, 
+                 tempore exercitationem cupiditate nostrum quae sed, voluptate harum 
+                 eum sint corporis facere in error accusantium.
+                </p>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="section dark" id="competences">
+    <div class="boxed text-center ">
+        <h2>Decouvrez mes competences</h2>
+        <div class="flex gap20 toColumn">
+            <div class="w25 wm100 skill">
+                <img src="img/html-5.png" alt="Image HTML" class="logo">
+                <h3>HTML</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img src="img/css-3.png" alt="Image HTML" class="logo">
+                <h3>CSS</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img src="img/js.png" alt="Image HTML" class="logo">
+                <h3>Javascript</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img src="img/php.png" alt="Image HTML" class="logo">
+                <h3>PHP</h3>
+            </div>
+
+        </div>
+    </div>
+ </div>
+ <div class="section" id="realisations">
+    <div class="boxed text-center">
+        <h2>Mes realisations</h2>
+        <div class="flex wrap space-between gap20">
+            <div class="w32 wm47 realisation">
+                <a href="http://">
+                    <img src="img/lake-mountains-rocks-sunrise-daylight-scenery-illustration-3840x2160-3773.jpg" alt="Image1">
+                </a>
+                <h3>Site de cuisine</h3>
+            </div>
+            <div class="w32 wm47 realisation">
+                <a href="http://">
+                    <img src="img/lake-mountains-rocks-sunrise-daylight-scenery-illustration-3840x2160-3773.jpg" alt="Image1">
+                </a>
+            </div>
+            <div class="w32 wm47 realisation">
+                <a href="http://">
+                    <img src="img/lake-mountains-rocks-sunrise-daylight-scenery-illustration-3840x2160-3773.jpg" alt="Image1">
+                </a>
+            </div>
+            <div class="w32 wm47 realisation">
+                <a href="http://">
+                    <img src="img/lake-mountains-rocks-sunrise-daylight-scenery-illustration-3840x2160-3773.jpg" alt="Image1">
+                </a>
+            </div>
+            <div class="w32 wm47 realisation">
+                <a href="http://">
+                    <img src="img/lake-mountains-rocks-sunrise-daylight-scenery-illustration-3840x2160-3773.jpg" alt="Image1">
+                </a>
+            </div>
+            <div class="w32 wm47 realisation">
+                <a href="http://">
+                    <img src="img/lake-mountains-rocks-sunrise-daylight-scenery-illustration-3840x2160-3773.jpg" alt="Image1">
+                </a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="section dark" id="contact">
+    <div class="boxed text-center">
+        <h2>Contactez-moi</h2>
+        <div class="flex space-between toColumn mgap20">
+            <div class="w32 wm100 contact">
+                <span><i class="fas fa-envelope fa-2x icon"></i></span>
+                <span class="label">Email</span>
+                <span class="value">test@test.fr</span>
+            </div>
+            <div class="w32 wm100 contact">
+                <span><i class="fas fa-envelope fa-2x icon"></i></span>
+                <span class="label">Email</span>
+                <span class="value">test@test.fr</span>
+            </div>
+            <div class="w32 wm100 contact">
+                <span><i class="fas fa-envelope fa-2x icon"></i></span>
+                <span class="label">Email</span>
+                <span class="value">test@test.fr</span>
+            </div>
+
+        </div>
+    </div>
+ </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
